@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #ebebeb;
+}
+
+/*h3 {
+    font-size: 24px;
+}*/
+
+header {
+  background-color: #eac926;
+}
+
+div.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+}
+
+/*header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}*/
+
+.logo {
+  width: 50%;
+  padding: 10px;
+}
+
+.busqueda {
+  margin: 20px 10px;
+  width: 100%;
+}
+
+.busqueda i {
+    background-color: #ebebeb;
+    padding: 5px;
+    display: inline-block;
+}
+
+.compra-cuotas {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.compra-cuotas i {
+  padding-right: 5px;
+}
+
+/*header div.logo,
+header .form{
+    width: 50%;
+}*/
+
+/* header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+} */
+
+header nav {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .form .input {
+  background-color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  color: #666;
+  padding: 2px;
+}
+
+header .form .submit {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #666;
+  width: 10%;
+}
+
+div.burger {
+  text-align: center;
+}
+
+div.burger i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+}
+
+div.banner img {
+  width: 100%;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+}
+
+main section article {
+  background-color: #fff;
+  margin: 10px 0px;
+}
+
+main section article img {
+  width: 100%;
+}
+
+main section article i,
+.descuento {
+  color: #39b54a;
+}
+
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+main section h3 {
+  margin: 20px 0px;
+}
+
+article div.main-article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  padding: 15px;
+}
+
+div.ultima-visita,
+div.ofertas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.precio {
+  font-size: 18px;
+  width: 30%;
+}
+
+.descuento {
+  width: 70%;
+}
+
+.descuento,
+.descripcion {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3,
+.descripcion {
+  color: #666;
+}
+
+.descripcion {
+  display: none;
+  margin-top: 20px;
+}
+
+footer {
+  margin: 30px;
+  text-align: center;
+}
+
+footer section {
+  margin: 15px;
+}
+
+footer i {
+  color: #1259c3;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+/*Tablet*/
+@media (min-width: 361px) {
+  main section article .descripcion {
+    display: block;
+  }
+
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  main section div.productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  main section div.productos article {
+    width: 45%;
+  }
+
+  .precio,
+  .descuento {
+    width: 50%;
+  }
+}
+
+/*Dektop*/
+@media (min-width: 769px) {
+  main section div.productos article {
+    width: 22%;
+  }
+}
+
+/*.descripcion {
+    opacity: 0;
+}
+
+.descripcion:hover {
+    opacity: 1;
+    transition: all, 800ms;
+}*/
