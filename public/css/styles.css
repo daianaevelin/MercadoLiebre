@@ -10,10 +10,6 @@ body {
   background-color: #ebebeb;
 }
 
-/*h3 {
-    font-size: 24px;
-}*/
-
 header {
   background-color: #eac926;
 }
@@ -23,12 +19,6 @@ div.top-header {
   flex-wrap: wrap;
   padding: 0%;
 }
-
-/*header div.top-header p {
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-}*/
 
 .logo {
   width: 50%;
@@ -57,18 +47,6 @@ div.top-header {
 .compra-cuotas i {
   padding-right: 5px;
 }
-
-/*header div.logo,
-header .form{
-    width: 50%;
-}*/
-
-/* header .form{
-    display: flex;
-    align-items: center;
-    padding: 2px;
-    font-size: 11px;
-} */
 
 header nav {
   font-size: 12px;
@@ -261,12 +239,3 @@ footer i {
     width: 22%;
   }
 }
-
-/*.descripcion {
-    opacity: 0;
-}
-
-.descripcion:hover {
-    opacity: 1;
-    transition: all, 800ms;
-}*/
