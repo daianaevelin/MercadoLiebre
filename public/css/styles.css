@@ -14,7 +14,7 @@ header {
   background-color: #eac926;
 }
 
-div.top-header {
+.top-header {
   display: flex;
   flex-wrap: wrap;
   padding: 0%;
