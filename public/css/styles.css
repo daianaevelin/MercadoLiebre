@@ -30,6 +30,15 @@ header {
   width: 100%;
 }
 
+.busqueda input {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 2px;
+  outline: none;
+  color: #666;
+  padding: 2px;
+}
+
 .busqueda i {
     background-color: #ebebeb;
     padding: 5px;
@@ -67,17 +76,9 @@ ul {
   list-style-type: none;
 }
 
-header ul li a {
+ul li a {
   text-decoration: none;
   color: #000;
-}
-
-header .form .input {
-  background-color: #fff;
-  border: 1px solid #000;
-  outline: none;
-  color: #666;
-  padding: 2px;
 }
 
 header .form .submit {
