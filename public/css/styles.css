@@ -79,11 +79,11 @@ ul li a {
 }
 
 ul li {
-  margin: 0px 7px;
+  margin: 1px 7px;
 }
 
 .nav-right li i {
-  margin: 0px 2px;
+  margin: 1px 2px;
 }
 
 .burger {
@@ -105,8 +105,8 @@ ul li {
   display: none;
 }*/
 
-.banner {
-  width: 100vw;
+div.banner img {
+  width: 100%;
 }
 
 main {
@@ -206,27 +206,6 @@ footer i {
   font-size: 10px;
 }
 
-/*Movil*/
-@media (max-width: 480px) {
-  .top-header {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-  }
-  
-  .navbar {
-  display: none;
-  }
-
-  .productos {
-      display: grid;
-      grid-template-columns: 1fr;
-  }
-
-  .descripcion {
-    display: none;
-  }
-}
-
 /*Tablet*/
 @media (min-width: 361px) {
   main section article .descripcion {
@@ -259,9 +238,5 @@ footer i {
 @media (min-width: 769px) {
   main section div.productos article {
     width: 22%;
-  }
-
-  .burger {
-    display: none;
   }
 }
