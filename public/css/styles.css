@@ -26,8 +26,8 @@ header {
 }
 
 .busqueda {
+  width: 50%;
   margin: 20px 10px;
-  width: 100%;
 }
 
 .busqueda input {
@@ -58,12 +58,9 @@ header {
   padding-right: 5px;
 }
 
-nav {
-  font-size: 12px;
-  margin: 20px;
-}
-
 .navbar {
+  font-size: 13px;
+  margin: 1px 20px;
   display: flex; 
   flex-direction: row;
   justify-content: space-between;
@@ -81,18 +78,19 @@ ul li a {
   color: #000;
 }
 
-header .form .submit {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #666;
-  width: 10%;
+ul li {
+  margin: 0px 7px;
 }
 
-div.burger {
+.nav-right li i {
+  margin: 0px 2px;
+}
+
+.burger {
   text-align: center;
 }
 
-div.burger i {
+.burger i {
   background-color: #0044aa;
   border-radius: 5px;
   color: #fff;
@@ -103,8 +101,12 @@ div.burger i {
   width: 40px;
 }
 
-div.banner img {
-  width: 100%;
+/*.navbar {
+  display: none;
+}*/
+
+.banner {
+  width: 100vw;
 }
 
 main {
@@ -204,6 +206,27 @@ footer i {
   font-size: 10px;
 }
 
+/*Movil*/
+@media (max-width: 480px) {
+  .top-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .navbar {
+  display: none;
+  }
+
+  .productos {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+
+  .descripcion {
+    display: none;
+  }
+}
+
 /*Tablet*/
 @media (min-width: 361px) {
   main section article .descripcion {
@@ -236,5 +259,9 @@ footer i {
 @media (min-width: 769px) {
   main section div.productos article {
     width: 22%;
+  }
+
+  .burger {
+    display: none;
   }
 }
